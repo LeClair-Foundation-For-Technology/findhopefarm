@@ -23,8 +23,8 @@
                 <ul class="navbar-nav ms-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item">
-                        <div class="nav-item dropdown nav-link"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" style="color: white;" href="#">Dairy herd</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="does.html">all does</a><a class="dropdown-item" href="#">bucks</a><a class="dropdown-item" href="#">Purchase</a><a class="dropdown-item" href="#">management</a></div>
+                        <div class="nav-item dropdown show nav-link"><a class="dropdown-toggle" aria-expanded="true" data-bs-toggle="dropdown" style="color: white;" href="#">Dairy herd</a>
+                            <div class="dropdown-menu show" data-bs-popper="none"><a class="dropdown-item" href="does.html">Our goats</a><a class="dropdown-item" href="#">Purchase</a><a class="dropdown-item" href="#">management</a></div>
                         </div>
                     </li>
                     <li class="nav-item"></li>
@@ -45,323 +45,334 @@
                 <div class="row">
                     <div class="col-lg-12 text-center" id="bucks-selector">
                         <h2 class="text-uppercase section-heading" style="margin-top: 60px;">Our does</h2>
-                        <h3 class="text-muted section-subheading"></h3><a class="btn btn-primary" role="button" style="background: var(--bs-btn-border-color);width: 100px;height: 50px;margin-right: 10px;" href="#bucks-selector">Bucks</a><a class="btn btn-primary" role="button" style="background: var(--bs-btn-border-color);width: 100px;height: 50px;margin-right: 10px;" href="#junior-selector">Junior</a><a class="btn btn-primary" role="button" style="background: var(--bs-btn-border-color);width: 100px;height: 50px;margin-right: 10px;" href="#senior-selector">Senior</a>
+                        <h3 class="text-muted section-subheading"></h3>
                     </div>
                 </div>
             </div>
             <div class="container py-4 py-xl-5">
-                <div class="row mb-5">
-                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                        <h2>Bucks</h2>
-                        <p class="w-lg-50">All of our lovely bucks.</p>
-                    </div>
-                </div>
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/white-goat.webp">
-                            <div class="py-4">
-                                <h4>&nbsp;Addi-Hill T.O. Lee</h4>
-                                <p>A French Alpine</p>
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1" style="color: var(--bs-primary);">Bucks</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2" style="color: var(--bs-primary);">Juniors</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3" style="color: var(--bs-primary);">Seniors</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" role="tabpanel" id="tab-1">
+                            <div class="row mb-5" style="margin-top: 10px;">
+                                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                                    <h2>Bucks</h2>
+                                    <p class="w-lg-50">All of our lovely bucks.</p>
+                                </div>
+                            </div>
+                            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/white-goat.webp">
+                                        <div class="py-4">
+                                            <h4>&nbsp;Addi-Hill T.O. Lee</h4>
+                                            <p>A French Alpine</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Caprice Acres Wahoo Jubilant</h4>
+                                            <p>A French Alpine</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-1.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Halston Rafiki</h4>
+                                            <p>A French Alpine</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Patteran A-Z N-Jafar</h4>
+                                            <p>A French Alpine</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Caprice Acres Wahoo Jubilant</h4>
-                                <p>A French Alpine</p>
+                        <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <div class="row mb-5" id="junior-selector" style="margin-top: 10px;">
+                                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                                    <h2>Juniors</h2>
+                                    <p class="w-lg-50">All of our lovely bucks.</p>
+                                </div>
+                            </div>
+                            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-2.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Doc Snow White</h4>
+                                            <p>Kickapoo-Valley Night Doctor x SG Addi-Hill Silas Savanna</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Sid Scuttle</h4>
+                                            <p>Find Hope Onyx Obsidian x Find Hope Zen Scarlet Witch</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-1.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Doc Dory</h4>
+                                            <p>Kickapoo-Valley Night Doctor x Wheatridge Farm L. Marissa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-3.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Bane Miss Lara</h4>
+                                            <p>Hops N Lops Wolfsbane x The Penn Hill Miss Lana</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-4.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Lee Vane</h4>
+                                            <p>*B Addi-Hill T.O. Lee x Find Hope Zen Venusaur</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Doc Valentina</h4>
+                                            <p>Kickapoo-Valley Night Doctor x Find Hope Victory Dharma</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Jafar Severus</h4>
+                                            <p>Patteran A-Z N-Jafar x SG Addi-Hill Silas Savanna</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Jafar Victoria</h4>
+                                            <p>Patteran A-Z N-Jafar x Find Hope Zen Valkyrie</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Doc Rowena</h4>
+                                            <p>Kickapoo-Valley Night Doctor x SG Addi-Hill Major Charee</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>State Line Aspire Sansa</h4>
+                                            <p>Wingwood Farm Cool Aspirations x Quarter Mile Finale Finally</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Lee Opal Kunz</h4>
+                                            <p>*B Addi-Hill T.O. Lee x Find Hope Bane Amelia Earhart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Morgan Stark</h4>
+                                            <p>Oznayim Adonis' Dave x Find Hope Humble Toni Stark</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Morggan Stark</h4>
+                                            <p>Oznayim Adonis' Dave x Find Hope Humble Toni Stark</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Lee Honeydukes</h4>
+                                            <p>*B Addi-Hill T.O. Lee x Find Hope Sid Hypno</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Rafiki Dolores</h4>
+                                            <p>*B Find Hope Halston Rafiki x Find Hope Lee Ditto</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-1.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Halston Rafiki</h4>
-                                <p>A French Alpine</p>
+                        <div class="tab-pane" role="tabpanel" id="tab-3">
+                            <div class="row mb-5" id="senior-selector" style="margin-top: 10px;">
+                                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                                    <h2>Seniors</h2>
+                                    <p class="w-lg-50">All of our lovely bucks.</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Patteran A-Z N-Jafar</h4>
-                                <p>A French Alpine</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container py-4 py-xl-5">
-                <div class="row mb-5" id="junior-selector">
-                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                        <h2>Juniors</h2>
-                        <p class="w-lg-50">All of our lovely bucks.</p>
-                    </div>
-                </div>
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-2.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Doc Snow White</h4>
-                                <p>Kickapoo-Valley Night Doctor x SG Addi-Hill Silas Savanna</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Sid Scuttle</h4>
-                                <p>Find Hope Onyx Obsidian x Find Hope Zen Scarlet Witch</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-1.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Doc Dory</h4>
-                                <p>Kickapoo-Valley Night Doctor x Wheatridge Farm L. Marissa</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-3.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Bane Miss Lara</h4>
-                                <p>Hops N Lops Wolfsbane x The Penn Hill Miss Lana</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-4.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Lee Vane</h4>
-                                <p>*B Addi-Hill T.O. Lee x Find Hope Zen Venusaur</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Doc Valentina</h4>
-                                <p>Kickapoo-Valley Night Doctor x Find Hope Victory Dharma</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Jafar Severus</h4>
-                                <p>Patteran A-Z N-Jafar x SG Addi-Hill Silas Savanna</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Jafar Victoria</h4>
-                                <p>Patteran A-Z N-Jafar x Find Hope Zen Valkyrie</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Doc Rowena</h4>
-                                <p>Kickapoo-Valley Night Doctor x SG Addi-Hill Major Charee</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>State Line Aspire Sansa</h4>
-                                <p>Wingwood Farm Cool Aspirations x Quarter Mile Finale Finally</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Lee Opal Kunz</h4>
-                                <p>*B Addi-Hill T.O. Lee x Find Hope Bane Amelia Earhart</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Morgan Stark</h4>
-                                <p>Oznayim Adonis' Dave x Find Hope Humble Toni Stark</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Morggan Stark</h4>
-                                <p>Oznayim Adonis' Dave x Find Hope Humble Toni Stark</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Lee Honeydukes</h4>
-                                <p>*B Addi-Hill T.O. Lee x Find Hope Sid Hypno</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 200px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Rafiki Dolores</h4>
-                                <p>*B Find Hope Halston Rafiki x Find Hope Lee Ditto</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container py-4 py-xl-5">
-                <div class="row mb-5" id="senior-selector">
-                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                        <h2>Seniors</h2>
-                        <p class="w-lg-50">All of our lovely bucks.</p>
-                    </div>
-                </div>
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/1.webp">
-                            <div class="py-4">
-                                <h4>The Penn Hill Miss Lana</h4>
-                                <p>RECORDED GRADE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/2.webp">
-                            <div class="py-4">
-                                <h4>CH Windrush Farms Blue Sapphire</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/3.webp">
-                            <div class="py-4">
-                                <h4> SG Addi-Hill Silas Savanna</h4>
-                                <p>FRENCH </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-3.jpg">
-                            <div class="py-4">
-                                <h4>Quarter Mile Finale Finally</h4>
-                                <p>PUREBRED NUBIAN</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/4.webp">
-                            <div class="py-4">
-                                <h4>SG Addi-Hill Major Charee</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/5.webp">
-                            <div class="py-4">
-                                <h4>Addi-Hill Samson Confetti</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Lee Seadra</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/6.webp">
-                            <div class="py-4">
-                                <h4>Find Hope Zen Scarlet Witch</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/7.webp">
-                            <div class="py-4">
-                                <h4>Find Hope Zen Valkyrie</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/8.webp">
-                            <div class="py-4">
-                                <h4>Find Hope Zen Venusaur</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Humble Toni Stark</h4>
-                                <p>PUREBRED NUBIAN</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Victory Dharma</h4>
-                                <p>RECORDED GRADE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Zen Vaporeon</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Zen Tanzanite</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Humble Hearts LH Country Charm</h4>
-                                <p>PUREBRED NUBIAN</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Find Hope Lee Ditto</h4>
-                                <p>FRENCH ALPINE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
-                            <div class="py-4">
-                                <h4>Meadowwild Chill's Charon</h4>
-                                <p>FRENCH ALPINE</p>
+                            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/1.webp">
+                                        <div class="py-4">
+                                            <h4>The Penn Hill Miss Lana</h4>
+                                            <p>RECORDED GRADE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/2.webp">
+                                        <div class="py-4">
+                                            <h4>CH Windrush Farms Blue Sapphire</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/3.webp">
+                                        <div class="py-4">
+                                            <h4> SG Addi-Hill Silas Savanna</h4>
+                                            <p>FRENCH </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640-3.jpg">
+                                        <div class="py-4">
+                                            <h4>Quarter Mile Finale Finally</h4>
+                                            <p>PUREBRED NUBIAN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/4.webp">
+                                        <div class="py-4">
+                                            <h4>SG Addi-Hill Major Charee</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/5.webp">
+                                        <div class="py-4">
+                                            <h4>Addi-Hill Samson Confetti</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Lee Seadra</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/6.webp">
+                                        <div class="py-4">
+                                            <h4>Find Hope Zen Scarlet Witch</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/7.webp">
+                                        <div class="py-4">
+                                            <h4>Find Hope Zen Valkyrie</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 270px;" src="assets/img/8.webp">
+                                        <div class="py-4">
+                                            <h4>Find Hope Zen Venusaur</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Humble Toni Stark</h4>
+                                            <p>PUREBRED NUBIAN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Victory Dharma</h4>
+                                            <p>RECORDED GRADE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Zen Vaporeon</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Zen Tanzanite</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Humble Hearts LH Country Charm</h4>
+                                            <p>PUREBRED NUBIAN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Find Hope Lee Ditto</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div><img class="rounded img-fluid d-block w-100 fit-cover" alt="coming soon, chalk, board" style="height: 270px;" src="assets/img/g3b209954025eadd42ae8d17c26a96d8e35027955765f9b3ab4db462b67056eff79a9570471d8c981e290a122042cbb52a51af5575e4460a274af8b2fb58df4f8_640.jpg">
+                                        <div class="py-4">
+                                            <h4>Meadowwild Chill's Charon</h4>
+                                            <p>FRENCH ALPINE</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
